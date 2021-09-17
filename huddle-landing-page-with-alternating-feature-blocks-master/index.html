@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <link
       rel="icon"
@@ -17,8 +18,8 @@
     </title>
   </head>
     <header>
-      <div class="container" >
-      <nav>
+    <div class="container" >
+      <nav class="flex">
         <img src="./images/logo.svg" alt="logo" />
         <button class="btn btn-secondary">Try It Free</button>
       </nav>
@@ -37,8 +38,9 @@
         Get Started For Free
       </button>
     </div>
-
-    <img src="./images/illustration-mockups.svg" alt="mockups">
+ <div> 
+    <img class= "header-img" src="./images/illustration-mockups.svg" alt="mockups">
+  </div>
     </div>
   </div>
 </header>
@@ -55,12 +57,17 @@
         with a feedback form.
       </p>
     </div>
+    <div>  
         <img src="./images/illustration-grow-together.svg" alt="grow together">
-  </div> 
+  </div>
+</div> 
  
-    <div class="box flex">
+    <div class="box flex box-reverse-mobile">
+      <div>  
       <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversation">
+    </div>
       <div> 
+      
       <h2>Flowing Conversations</h2>
       <p>
         You wouldn't paginate a conversation in real life, so why do it online?
@@ -77,27 +84,30 @@
         users can start chatting immediately.
       </p>
     </div>
-    <img src="./images/illustration-your-users.svg" alt="your users">
+     
+     <div>  
+     <img src="./images/illustration-your-users.svg" alt="your users">
   </div>
+</div>
   </div>
 </main>
-    
-   <div class="box"> 
+<div class="container center"> 
+   <div class="box small-box"> 
         <h2>  Ready To Build Your Community? </h2>
 
         <button class="btn btn-primary btn-big">  Get Started For Free </button> 
    </div>
-
+  </div>
   <footer>  
   <div class="container"> 
-    <img src="./images/logo.svg" alt="logo">
+    <img src="./images/logo-white.svg" alt="logo">
 
-    <div class="flex">
-      <div>
-
+    <div class="flex align-start">
         <ul>
           <li>
-               Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+               Lorem ipsum dolor sitamet, consectetur<br/>
+               
+               adipiscing elit, sed do eiusmod tempor<br/> incididunt ut
             labore et dolore magna aliqua
           </li>
           <li>
@@ -107,9 +117,9 @@
             example@huddle.com
           </li>
         </ul>
-      </div>
+ 
 
-      <div>
+      
         <ul>
           <li>
             About Us
@@ -121,9 +131,9 @@
             FAQ
           </li>
         </ul>
-      </div>
+     
 
-      <div>
+   
       <ul>
         <li>
           Career 
@@ -135,27 +145,18 @@
           Contact Us
         </li>
       </ul>
-      </div>
-
-      <div>
-       <ul>
-         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+       <ul class="social-media">
+         <li><a class = "center"  href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a class = "center"   href="#"><i class="fab fa-twitter"></i></a></li>
+         <li><a class ="center"   href="#"><i class="fab fa-instagram"></i></a></li>
        </ul>
-      </div>
-  <p>
-
-    &copy; Copyright 2018 Huddle. All
-    rights reserved.
-  </p>
-
-    </div>
+  </div>
+  <div> 
+    <p>
+      &copy; Copyright 2018 Huddle. All
+      rights reserved.
+    </p>
   </div>
   </footer>
-  
-     
-  
-   
   </body>
 </html>
